@@ -1,0 +1,40 @@
+{
+  "fileKey": "FIGMA-ENTERPRISE-AI-2026",
+  "designSystem": "Enterprise AI Console UI",
+  "tokens": {
+    "colors": {
+      "surface": "#0f172a",
+      "primary": "#0284c7",
+      "accent": "#10b981",
+      "border": "#1e293b"
+    },
+    "radius": {
+      "card": "12px",
+      "button": "8px"
+    }
+  },
+  "components": [
+    {
+      "name": "MetricKpiCard",
+      "figmaNodeId": "12:401",
+      "ariaLabel": "Key performance metric summary card",
+      "variant": "elevated",
+      "props": [
+        { "name": "label", "type": "string", "required": true },
+        { "name": "value", "type": "string", "required": true },
+        { "name": "trend", "type": "string", "required": false }
+      ]
+    },
+    {
+      "name": "ApprovalActionBanner",
+      "figmaNodeId": "12:518",
+      "ariaLabel": "Human in the loop approval banner",
+      "variant": "warning",
+      "props": [
+        { "name": "title", "type": "string", "required": true },
+        { "name": "description", "type": "string", "required": true },
+        { "name": "ctaLabel", "type": "string", "required": true }
+      ]
+    }
+  ]
+}
